@@ -1,0 +1,23 @@
+.cabecalho {
+    text-align: center;
+    margin: 7em 0 10em 0;
+}
+
+.cabecalho__generico {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.cabecalho__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0.5em 0 36px;
+}
+
+.cabecalho__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    display: inline-block;
+    max-width: 791px;
+}

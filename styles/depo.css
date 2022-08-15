@@ -1,0 +1,53 @@
+.depo {
+    height: 500px;
+}
+
+.depo__container {
+    max-width: 1280px;
+    height: 404px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    background: var(--vermelho-opaco);
+    border-radius: 16px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.depo__generico {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+    
+}
+
+.depo__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto-destaque);
+    
+}
+
+.depo__nome-perfil-link {
+    font-weight: 500;
+    color: var(--preto-destaque);
+    text-decoration: none;
+}
+
+.depo__nome-perfil-link:hover {
+    color: var(--vermelho);
+}
+
+.depo__texto {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.depo__container img {
+    width: 56px;
+    height: 56px;
+    align-self: center;
+}
